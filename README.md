@@ -36,6 +36,7 @@ Este é um projeto Fullstack com uma tela de **Login e Cadastro de Usuários**, 
 - Validação de formulários
 - Integração com banco de dados MongoDB
 - Comunicação entre front e back via API REST
+- Responsivo para todos os tamanhos de telas
 
 ---
 
@@ -86,3 +87,7 @@ npm run dev
 cd ../frontend
 npm run dev
 ```
+
+## Desenvolvido por Thiara Fernandes
+ - [Linkedin](https://www.linkedin.com/in/thiarafernandes/)
+ - [GitHub](https://github.com/ThiaraFernandes)
