@@ -150,19 +150,19 @@ export const Users = () => {
                     <Input
                       type="text"
                       value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, name: e.target.value })}
                       placeholder="Nome"
                     />
                     <Input
                       type="number"
                       value={formData.age}
-                      onChange={(e) => setFormData({ ...formData, age: e.target.value })}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, age: e.target.value })}
                       placeholder="Idade"
                     />
                     <Input
                       type="email"
                       value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                      onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFormData({ ...formData, email: e.target.value })}
                       placeholder="Email"
                     />
                     <ButtonGroup>
