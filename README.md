@@ -1,5 +1,11 @@
 # Tela de Login com Backend
 
+![Testes](https://img.shields.io/badge/testes-passing-brightgreen?style=flat-square)
+![Build](https://img.shields.io/badge/build-passing-blue?style=flat-square)
+![Linguagens](https://img.shields.io/github/languages/top/ThiaraFernandes/sistema-login-back?style=flat-square)
+![Licença](https://img.shields.io/github/license/ThiaraFernandes/sistema-login-back?style=flat-square)
+![Último Commit](https://img.shields.io/github/last-commit/ThiaraFernandes/sistema-login-back?style=flat-square)
+
 Este é um projeto Fullstack com uma tela de **Login e Cadastro de Usuários**, desenvolvido com **React, TypeScript, Node.js, Express e MongoDB**. O sistema permite o registro de novos usuários, editar e excluir usuários cadastrados e a exibição dos usuários cadastrados, com integração total entre front-end e back-end.
 
 ## 🖼️ Imagens do Projeto
@@ -37,6 +43,7 @@ Este é um projeto Fullstack com uma tela de **Login e Cadastro de Usuários**, 
 - Integração com banco de dados MongoDB
 - Comunicação entre front e back via API REST
 - Responsivo para todos os tamanhos de telas
+ - Testes automatizados
 
 ---
 
@@ -87,6 +94,42 @@ npm run dev
 cd ../frontend
 npm run dev
 ```
+---
+## 🧪 Testes Automatizados
+Este projeto conta com testes automatizados para garantir a estabilidade e qualidade das funcionalidades.
+
+### 🔧 Dependências utilizadas
+Frontend
+- Jest
+
+- React Testing Library
+
+- ts-jest
+
+Backend
+ - Jest
+
+- Supertest
+
+- ts-jest
+
+### 📁 Estrutura dos testes
+- Frontend: arquivos .test.tsx na pasta src/, testando a renderização e funcionamento dos componentes React.
+- Backend: arquivos .test.ts na pasta src/, testando as rotas e lógica de negócio com Supertest.
+
+### ▶️ Como rodar os testes
+#### No Frontend
+```bash
+cd frontend
+npm run test
+```
+#### No Backend
+
+```bash
+cd frontend
+npm run test
+```
+
 
 ## Desenvolvido por Thiara Fernandes
  - [Linkedin](https://www.linkedin.com/in/thiarafernandes/)
